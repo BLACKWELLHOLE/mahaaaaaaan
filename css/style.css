@@ -1,9 +1,43 @@
-img{
-    max-width: 100%;
-      display: block;
-      height: auto;
-      margin: 0 auto;
-    } 
-    body{
-      text-align: center;
-    }
+body {
+  padding-top: 20px;
+  display: "flex";
+  justify-content: center;
+}
+#main {
+  text-align: center;
+  align-items: center;
+  background: #eee;
+}
+
+#header {
+  padding-top: 30px;
+}
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+#img-div {
+  background-color: #fff;
+}
+#img-caption {
+  padding: 12px;
+  font-size: 1.2em;
+}
+h1 {
+  text-align: center;
+  font-size: 3rem;
+}
+h2 {
+  padding: 30px;
+}
+#ul-container ul li {
+  margin-top: 20px;
+}
+#ul-container {
+  margin: auto;
+  width: 600px;
+  text-align: left;
+}
